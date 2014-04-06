@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'CDYAdLoader'
+  spec.name         = 'CDYAnalyticsCoordinator'
   spec.version      = '0.1.0'
   spec.summary      = "Utility classes to coordinate reporting to different analytics services."
   spec.homepage     = "https://github.com/coodly/CDYAnalyticsCoordinator"

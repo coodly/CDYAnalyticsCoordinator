@@ -19,6 +19,7 @@
 		EAD7381918F0910B00FD1D40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD7380118F0910B00FD1D40 /* UIKit.framework */; };
 		EAD7382118F0910B00FD1D40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAD7381F18F0910B00FD1D40 /* InfoPlist.strings */; };
 		EAD7382318F0910B00FD1D40 /* AnalyticsCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD7382218F0910B00FD1D40 /* AnalyticsCoordinatorTests.m */; };
+		EAD7382F18F1763600FD1D40 /* CDYAnalyticsCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD7382E18F1763600FD1D40 /* CDYAnalyticsCoordinator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		EAD7381E18F0910B00FD1D40 /* AnalyticsCoordinatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalyticsCoordinatorTests-Info.plist"; sourceTree = "<group>"; };
 		EAD7382018F0910B00FD1D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAD7382218F0910B00FD1D40 /* AnalyticsCoordinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsCoordinatorTests.m; sourceTree = "<group>"; };
+		EAD7382D18F1763600FD1D40 /* CDYAnalyticsCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYAnalyticsCoordinator.h; sourceTree = "<group>"; };
+		EAD7382E18F1763600FD1D40 /* CDYAnalyticsCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYAnalyticsCoordinator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 		EAD7382C18F092BB00FD1D40 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EAD7382D18F1763600FD1D40 /* CDYAnalyticsCoordinator.h */,
+				EAD7382E18F1763600FD1D40 /* CDYAnalyticsCoordinator.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD7382F18F1763600FD1D40 /* CDYAnalyticsCoordinator.m in Sources */,
 				EAD7380A18F0910B00FD1D40 /* main.m in Sources */,
 				EAD7380E18F0910B00FD1D40 /* CDYAppDelegate.m in Sources */,
 			);
