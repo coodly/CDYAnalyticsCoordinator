@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.subspec 'Core' do |ss|
-    ss.platform = :ios, '7.0'
+    ss.platform = :ios, '6.0'
     ss.source_files = 'Core/*.{h,m}'
   end
 end
